@@ -3,7 +3,7 @@
     :class="{ fixed: isFixed }"
     class="relative pt-8 bg-white md:bg-dark py-[35px] flex justify-between items-center ml-0 w-[100%] lg:w-[90%] lg:ml-[90px] mr-[90px] px-[30px] sm:mt-0 rounded-0 lg:rounded-12 z-[10000]"
   >
-    <img src="/images/logo.png" />
+    <img  src="/images/logo.png" />
 
     <div>
       <input
