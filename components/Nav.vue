@@ -8,7 +8,7 @@
     <div>
       <input
         type="text"
-        class="relative bg-lightDark rounded-[40px] py-3 text-light hidden lg:block text-sm pl-7 pr-12 before:absolute before:h-[30px] before:w-[1px] before:bg-light before:content-['']"
+        class="relative bg-lightDark rounded-[40px] py-3 text-light hidden xl:block text-sm pl-7 pr-12 before:absolute before:h-[30px] before:w-[1px] before:bg-light before:content-['']"
         placeholder="Type Something"
       />
     </div>
@@ -53,10 +53,10 @@
           >
         </li>
         <li
-          class="flex justify-evenly rounded-[50px] md:bg-lightDark md:hover:bg-primary items-center mr-0 md:mr-5 text-[15px] cursor-pointer w-[110px] transition duration-100 text-center flex-nowrap text-base min-w-[20%] py-1"
+          class="group flex justify-evenly rounded-[50px] md:bg-lightDark md:hover:bg-primary items-center mr-0 md:mr-5 text-[15px] cursor-pointer w-[110px] transition duration-100 text-center flex-nowrap text-base min-w-[20%] py-1"
         >
           <nuxt-link
-            class="!text-light hover:!text-primary md:hover:!text-white"
+            class="!text-light group-hover:!text-primary md:group-hover:!text-white"
             to="CreateYours"
             >Profile</nuxt-link
           >
@@ -71,6 +71,7 @@
 </template>
 
 <script setup lang="ts">
+// To do : add transition in nav on mobile
 const show = ref(false);
 
 const showNav = function () {
