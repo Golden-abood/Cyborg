@@ -1,6 +1,6 @@
 <template>
   <div>
-    <BaseContainer>
+    <BaseContainer class="mt-[100px] md:mt-0">
       <HomeHeroSection />
       <BaseWrapper class="relative">
         <div class="flex justify-between items-center">
@@ -21,7 +21,7 @@
       <BaseWrapper>
         <BaseTheTitle title="Your Gaming " text="Library" />
         <div>
-          <HomeCardsLibrary />
+          <HomeCardsLibrary v-for="library in libraries" :element="library" />
         </div>
       </BaseWrapper>
     </BaseContainer>
@@ -32,6 +32,7 @@
 import { useLibraryStore } from "~/stores/Library";
 import { storeToRefs } from "pinia";
 const libraryStore = useLibraryStore();
+const { libraries } = storeToRefs(libraryStore);
 </script>
 
 <style scoped></style>

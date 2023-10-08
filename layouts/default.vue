@@ -10,4 +10,8 @@
 
 <script setup lang="ts"></script>
 
-<style scoped></style>
+<style>
+::selection {
+  background-color: #e75e8d !important;
+}
+</style>

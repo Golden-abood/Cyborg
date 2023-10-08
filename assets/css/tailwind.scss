@@ -2,3 +2,11 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.active {
+  border-color: #ec6090 !important;
+  color: #ec6090 !important;
+  font-size: 14px;
+}
+.active:hover {
+  background-color: white;
+}

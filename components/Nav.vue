@@ -1,9 +1,8 @@
 <template>
   <div
-    :class="{ fixed: isFixed }"
-    class="relative pt-8 bg-white md:bg-dark py-[35px] flex justify-between items-center ml-0 w-[100%] lg:w-[90%] lg:ml-[90px] mr-[90px] px-[30px] sm:mt-0 rounded-0 lg:rounded-12 z-[10000]"
+    class="fixed md:relative pt-8 bg-white md:bg-dark py-[35px] flex justify-between items-center ml-0 w-[100%] lg:w-[90%] lg:ml-[90px] mr-[90px] px-[30px] sm:mt-0 rounded-0 lg:rounded-12 z-[10000]"
   >
-    <img  src="/images/logo.png" />
+    <img src="/images/logo.png" />
 
     <div>
       <input
@@ -34,21 +33,21 @@
         <li
           class="mr-0 md:mr-5 text-[15px] cursor-pointer text-center flex-nowrap text-base w-[70px] transition duration-100 hover:rounded-5 min-w-[14%] hover:py-2"
         >
-          <nuxt-link class="!text-light hover:!text-primary" to="Explore"
+          <nuxt-link class="!text-light hover:!text-primary" to="Browse"
             >Browse</nuxt-link
           >
         </li>
         <li
           class="mr-0 md:mr-5 text-[15px] cursor-pointer w-[110px] transition duration-100 text-center flex-nowrap text-base hover:rounded-5 min-w-[23%] hover:py-2"
         >
-          <nuxt-link class="!text-light hover:!text-primary" to="ItemDetails"
+          <nuxt-link class="!text-light hover:!text-primary" to="Details"
             >Details</nuxt-link
           >
         </li>
         <li
           class="mr-0 md:mr-5 text-[15px] cursor-pointer w-[60px] transition duration-100 text-center flex-nowrap text-base hover:rounded-5 min-w-[14%] hover:py-2"
         >
-          <nuxt-link class="!text-light hover:!text-primary" to="Author"
+          <nuxt-link class="!text-light hover:!text-primary" to="Streams"
             >Streams</nuxt-link
           >
         </li>
@@ -57,7 +56,7 @@
         >
           <nuxt-link
             class="!text-light group-hover:!text-primary md:group-hover:!text-white"
-            to="CreateYours"
+            to="Profile"
             >Profile</nuxt-link
           >
           <img
@@ -96,20 +95,6 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
-.fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  margin: 0 !important;
-  border-radius: 0;
-}
-@media (min-width: 992px) {
-  .fixed {
-    padding: 10px 120px;
-  }
-}
 @media (min-width: 992px) {
   .nuxt-link-active {
     color: #ec6090;
