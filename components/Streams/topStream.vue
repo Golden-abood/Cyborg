@@ -5,6 +5,7 @@
         class="flex justify-between items-center py-[20px] px-0 border-b-[1px] border-solid border-dark"
         v-for="item in topStreams"
         :key="item.num"
+        data-aos="zoom-in-down"
       >
         <div class="flex justify-around items-center">
           <span class="text-white mr-[8px] font-bold">{{ item.num }}</span>

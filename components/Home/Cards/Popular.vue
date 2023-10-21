@@ -1,7 +1,8 @@
 <template>
   <div
     class="bg-lightDark rounded-[23px] px-[15px] py-[30px]"
-    v-for="popular in populars"
+    v-for="(popular, index) in populars"
+    data-aos="zoom-in-down"
   >
     <img :src="popular.src" class="rounded-[23px] mx-auto w-[100%]" />
     <div class="flex justify-between pt-5">

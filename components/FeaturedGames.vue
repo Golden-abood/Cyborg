@@ -1,5 +1,6 @@
 <template>
   <Swiper
+    data-aos="fade-right"
     :modules="modules"
     :slides-per-view="3"
     :loop="true"
@@ -24,7 +25,11 @@
     }"
     class="relative"
   >
-    <SwiperSlide v-for="slide in features" :key="slide.title">
+    <SwiperSlide
+      data-aos="zoom-in-right"
+      v-for="slide in features"
+      :key="slide.title"
+    >
       <div>
         <img
           :src="slide.src"

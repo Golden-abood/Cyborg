@@ -3,12 +3,17 @@
     <div class="mx-auto mb-0 mt-[15px]">
       <div class="md:flex justify-center w-full gap-x-8 items-center">
         <img
+          data-aos="zoom-in-right"
           class="rounded-[23px] md:w-[44%]"
           src="/images/fortnite.jpeg"
           alt=""
         />
         <div class="relative mt-7 md:mt-0">
-          <img class="rounded-[23px]" src="/images/feature-right.jpg" />
+          <img
+            class="rounded-[23px]"
+            src="/images/feature-right.jpg"
+            data-aos="zoom-in-left"
+          />
           <Icon
             name="material-symbols:play-arrow-rounded"
             size="50"
@@ -19,6 +24,7 @@
         </div>
       </div>
       <h2
+        data-aos="zoom-in-down"
         class="text-center mt-[60px] mb-[40px] text-white text-[45px] font-bold"
       >
         FORTNITE DETAILS

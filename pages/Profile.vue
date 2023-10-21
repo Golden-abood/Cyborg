@@ -7,7 +7,11 @@
       <BaseWrapper>
         <BaseTheTitle title="Your Gaming " text="Library" />
 
-        <HomeCardsLibrary v-for="library in libraries" :element="library" />
+        <HomeCardsLibrary
+          v-for="library in libraries"
+          :element="library"
+          data-aos="zoom-in-down"
+        />
       </BaseWrapper>
     </BaseContainer>
   </div>

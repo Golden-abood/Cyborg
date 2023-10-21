@@ -2,12 +2,17 @@
   <div>
     <div
       class="lg:flex justify-center text-center lg:text-left lg:justify-start items-center"
+      data-aos="zoom-in-down"
     >
       <img
         class="mx-auto lg:mx-0 rounded-[23px] w-full lg:w-[33%] lg:mr-[30px]"
         src="/images/profile.jpg"
+        data-aos="zoom-in-right"
       />
-      <div class="flex-col relative top-[20px] lg:max-w-[400px]">
+      <div
+        class="flex-col relative top-[20px] lg:max-w-[400px]"
+        data-aos="zoom-in-down"
+      >
         <BaseTheButton
           title="Offline"
           class="relative mx-auto lg:mx-0 mb-5 w-[25%] text-[14px] hover:!bg-primary hover:!text-white"
@@ -26,6 +31,7 @@
           class="flex justify-between items-center py-[20px] px-0"
           v-for="(view, index) in pro"
           :key="view.title"
+          data-aos="zoom-in-left"
           :class="
             index != pro.length - 1
               ? '!border-b-light !border-b-solid !border-b-[1px]'
@@ -44,7 +50,14 @@
     >
       <BaseContainer
         class="!p-[20px] !pt-[30px]"
-        v-for="clip in clips"
+        v-for="(clip, index) in clips"
+        :data-aos="
+          index === 0
+            ? 'zoom-in-right'
+            : index === 1
+            ? 'zoom-out-right'
+            : 'zoom-in-left'
+        "
         :key="clip.title"
       >
         <div class="relative">

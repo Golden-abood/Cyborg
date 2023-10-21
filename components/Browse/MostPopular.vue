@@ -2,7 +2,7 @@
   <div
     class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[25px] relative"
   >
-    <div v-for="box in mostPopular" :key="box.name">
+    <div v-for="box in mostPopular" :key="box.name" data-aos="zoom-in-down">
       <img :src="box.photo" class="rounded-[23px] w-full" />
       <div class="flex justify-start items-start mt-[15px]">
         <img class="rounded-full" :src="box.src" />

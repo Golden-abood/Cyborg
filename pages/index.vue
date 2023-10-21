@@ -6,12 +6,13 @@
         <div class="flex justify-between items-center">
           <BaseTheTitle title="Most Popular" text="Right Now" />
           <BaseTheButton
+            data-aos="zoom-in-left"
             title="Add Popular"
             class="rounded-md mb-9 mx-auto md:mx-0"
           />
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 pb-6">
-          <HomeCardsPopular />
+          <HomeCardsPopular data-aos="fade-down" />
         </div>
         <BaseTheButton
           class="absolute left-[50%] translate-x-[-50%] top-[99.5%] md:top-[97%] w-[190px] py-2"
@@ -21,7 +22,11 @@
       <BaseWrapper>
         <BaseTheTitle title="Your Gaming " text="Library" />
         <div>
-          <HomeCardsLibrary v-for="library in libraries" :element="library" />
+          <HomeCardsLibrary
+            data-aos="fade-down"
+            v-for="library in libraries"
+            :element="library"
+          />
         </div>
       </BaseWrapper>
     </BaseContainer>

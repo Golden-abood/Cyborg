@@ -1,8 +1,9 @@
 <template>
-  <BaseTheTitle title="Top" text="Downloaded " />
+  <BaseTheTitle title="Top" text="Downloaded " data-aos="zoom-in-left" />
   <div
     class="flex justify-between items-center py-5 border-b-solid border-b-[1px] border-b-lightDark"
     v-for="item in populars.slice(0, 3)"
+    data-aos="zoom-in-left"
   >
     <div class="flex gap-x-5 py-3">
       <img :src="item.src" class="rounded-[30px] w-[35%]" />

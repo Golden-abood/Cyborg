@@ -6,8 +6,8 @@
         <FeaturedGames />
       </BaseWrapper>
       <BaseWrapper class="w-full xl:w-[35%] !mt-[10px]">
-        <BaseTheTitle title="Top " text="Streamers" />
-        <StreamsTopStream />
+        <BaseTheTitle title="Top " text="Streamers" data-aos="zoom-in-left" />
+        <StreamsTopStream data-aos="zoom-in-left" />
       </BaseWrapper>
     </div>
     <BaseWrapper class="mt-16">

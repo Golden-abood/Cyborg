@@ -1,8 +1,7 @@
-import { Title } from '#build/components'; import { BaseTheButton } from
-'#build/components'; import { BaseContainer } from '#build/components';
 <template>
   <div class="lg:flex justify-center items-center gap-y-0 gap-x-[30px]">
     <BaseContainer
+      data-aos="zoom-in-right"
       class="flex justify-between items-center gap-y-0 gap-x-[40px] !p-[30px] w-full md:w-[48%] mb-[30px] md:mb-0"
     >
       <div>
@@ -31,6 +30,7 @@ import { Title } from '#build/components'; import { BaseTheButton } from
       </div>
     </BaseContainer>
     <BaseContainer
+      data-aos="zoom-in-left"
       class="flex justify-evenly items-center gap-y-0 gap-x-[40px] !p-[30px] w-full md:w-[48%]"
     >
       <div class="flex-col text-center font-400">
@@ -58,19 +58,22 @@ import { Title } from '#build/components'; import { BaseTheButton } from
   <div class="mt-[40px]">
     <div class="md:flex justify-center items-center gap-x-5">
       <img
+        data-aos="zoom-in-right"
         src="/images/details-01.jpg"
         class="mb-5 md:mb-0 rounded-[23px] w-full"
       />
       <img
+        data-aos="zoom-in"
         src="/images/details-02.jpg"
         class="mb-5 md:mb-0 rounded-[23px] w-full"
       />
       <img
+        data-aos="zoom-in-left"
         src="/images/details-03.jpg"
         class="mb-5 md:mb-0 rounded-[23px] w-full"
       />
     </div>
-    <div class="text-light mt-[25px] text-[15px]">
+    <div class="text-light mt-[25px] text-[15px]" data-aos="fade-down">
       Cyborg Gaming is free HTML CSS website template provided by TemplateMo.
       This is Bootstrap v5.2.0 layout. You can make
       <span class="text-white"> a small contribution via PayPal </span> to info

@@ -4,15 +4,16 @@
       class="border-b-[1px] border-b-solid border-b-lightDark pb-5 flex relative items-center justify-between"
       v-for="card in populars"
       :key="card.title"
+      data-aos="zoom-in-down"
     >
-      <div class="flex items-center gap-x-5">
+      <div class="flex items-center gap-x-5" data-aos="zoom-in-right">
         <img :src="card.src" class="w-[30%] rounded-[23px]" />
         <div class="text">
           <h4 class="text-[15px] text-white">{{ card.title }}</h4>
           <span class="text-[14px] text-light">{{ card.type }}</span>
         </div>
       </div>
-      <div class="text-right text-[15px] text-white">
+      <div class="text-right text-[15px] text-white" data-aos="zoom-in-left">
         <div class="mb-0">
           <Icon
             name="material-symbols:star-rounded"

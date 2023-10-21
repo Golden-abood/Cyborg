@@ -3,8 +3,15 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[25px]">
       <div
         class="relative p-[30px] border-[1px] border-solid border-light rounded-[23px]"
-        v-for="box in stream"
+        v-for="(box, index) in stream"
         :key="box.title"
+        :data-aos="
+          index === 0
+            ? 'zoom-in-right'
+            : index === 1
+            ? 'zoom-in-up'
+            : 'zoom-in-left'
+        "
       >
         <img class="rounded-full mb-[15px]" :src="box.src" />
         <h3 class="text-white text-[20px] mb-[15px] font-bold">
