@@ -1,0 +1,203 @@
+{
+  "populars": [
+    {
+      "id": 1,
+      "title": "Fortnite",
+      "type": "Battle S",
+      "src": "/images/popular-01.jpg",
+      "count": "4.8",
+      "follows": "2.3",
+      "action": "Action",
+      "size": "36GB",
+      "photo": "/images/fortnite.jpeg",
+      "video": "/images/feature-right.jpg",
+      "screenshots": [
+        "/images/details-01.jpg",
+        "/images/details-02.jpg",
+        "/images/details-03.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "PubG",
+      "type": "Battle S",
+      "src": "/images/popular-02.jpg",
+      "count": "4.8",
+      "follows": "2.3",
+      "action": "Action",
+      "size": "36GB",
+      "photo": "/images/fortnite.jpeg",
+      "video": "/images/feature-right.jpg",
+      "screenshots": [
+        "/images/details-01.jpg",
+        "/images/details-02.jpg",
+        "/images/details-03.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Dota2",
+      "type": "Steam-X",
+      "src": "/images/popular-03.jpg",
+      "count": "4.8",
+      "follows": "2.3",
+      "action": "Action",
+      "size": "36GB",
+      "photo": "/images/fortnite.jpeg",
+      "video": "/images/feature-right.jpg",
+      "screenshots": [
+        "/images/details-01.jpg",
+        "/images/details-02.jpg",
+        "/images/details-03.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "CS-GO",
+      "type": "Legendary",
+      "src": "/images/popular-04.jpg",
+      "count": "4.8",
+      "follows": "2.3",
+      "action": "Action",
+      "size": "36GB",
+      "photo": "/images/fortnite.jpeg",
+      "video": "/images/feature-right.jpg",
+      "screenshots": [
+        "/images/details-01.jpg",
+        "/images/details-02.jpg",
+        "/images/details-03.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Mini Craft",
+      "type": "Legendary",
+      "src": "/images/popular-05.jpg",
+      "count": "4.8",
+      "follows": "2.3",
+      "action": "Action",
+      "size": "36GB",
+      "photo": "/images/fortnite.jpeg",
+      "video": "/images/feature-right.jpg",
+      "screenshots": [
+        "/images/details-01.jpg",
+        "/images/details-02.jpg",
+        "/images/details-03.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Eagles Fly",
+      "type": "Matrix Games",
+      "src": "/images/popular-06.jpg",
+      "count": "4.8",
+      "follows": "2.3",
+      "action": "Action",
+      "size": "36GB",
+      "photo": "/images/fortnite.jpeg",
+      "video": "/images/feature-right.jpg",
+      "screenshots": [
+        "/images/details-01.jpg",
+        "/images/details-02.jpg",
+        "/images/details-03.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Warface",
+      "type": "Max 3D",
+      "src": "/images/popular-07.jpg",
+      "count": "4.8",
+      "follows": "2.3",
+      "action": "Action",
+      "size": "36GB",
+      "photo": "/images/fortnite.jpeg",
+      "video": "/images/feature-right.jpg",
+      "screenshots": [
+        "/images/details-01.jpg",
+        "/images/details-02.jpg",
+        "/images/details-03.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Warcraft",
+      "type": "Legend",
+      "src": "/images/popular-08.jpg",
+      "count": "4.8",
+      "follows": "2.3",
+      "action": "Action",
+      "size": "36GB",
+      "photo": "/images/fortnite.jpeg",
+      "video": "/images/feature-right.jpg",
+      "screenshots": [
+        "/images/details-01.jpg",
+        "/images/details-02.jpg",
+        "/images/details-03.jpg"
+      ]
+    }
+  ],
+  "libraries": [
+    {
+      "img": "/images/game-01.jpg",
+      "title": "Dota 2",
+      "name": "Sandbox",
+      "dateFormat": "24/08/2036",
+      "hours": "Hours Played",
+      "hoursNum": "634 H 22 Mins",
+      "active": false
+    },
+    {
+      "img": "/images/game-02.jpg",
+      "title": "Fortnite",
+      "name": "Sandbox",
+      "dateFormat": "23/06/2036",
+      "hours": "Hours Played",
+      "hoursNum": "334 H 21 Mins",
+      "active": true
+    },
+    {
+      "img": "/images/game-03.jpg",
+      "title": "CS-GO",
+      "name": "Sandbox",
+      "dateFormat": "14/08/2016",
+      "hours": "Hours Played",
+      "hoursNum": "234 H 20 Mins",
+      "active": false
+    }
+  ],
+  "features": [
+    {
+      "src": "/images/featured-01.jpg",
+      "title": "Gamezer",
+      "star": "4.8",
+      "download": "2.3M",
+      "stream": "2.4K Streaming",
+      "down": "249K Downloads"
+    },
+    {
+      "src": "/images/featured-02.jpg",
+      "title": "Island Rusty",
+      "star": "4.8",
+      "download": "2.3M",
+      "stream": "4.4K Streaming",
+      "down": "549K Downloads"
+    },
+    {
+      "src": "/images/featured-03.jpg",
+      "title": "CS-GO",
+      "star": "4.8",
+      "download": "2.3M",
+      "stream": "2.8K Streaming",
+      "down": "289K Downloads"
+    },
+    {
+      "src": "/images/featured-01.jpg",
+      "title": "Gamezer",
+      "star": "4.8",
+      "download": "2.3M",
+      "stream": "2.4K Streaming",
+      "down": "249K Downloads"
+    }
+  ]
+}

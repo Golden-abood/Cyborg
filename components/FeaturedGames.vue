@@ -1,6 +1,5 @@
 <template>
   <Swiper
-    data-aos="fade-right"
     :modules="modules"
     :slides-per-view="3"
     :loop="true"
@@ -25,11 +24,7 @@
     }"
     class="relative"
   >
-    <SwiperSlide
-      data-aos="zoom-in-right"
-      v-for="slide in features"
-      :key="slide.title"
-    >
+    <SwiperSlide v-for="slide in features" :key="slide.title">
       <div>
         <img
           :src="slide.src"
@@ -82,6 +77,8 @@ import { storeToRefs } from "pinia";
 import { useFeatureStore } from "~/stores/feature";
 const featureStore = useFeatureStore();
 const { features } = storeToRefs(featureStore);
+const { pending } = useLazyAsyncData(() => featureStore.list());
+
 const modules = [SwiperAutoplay, SwiperNavigation];
 </script>
 

@@ -16,6 +16,7 @@ export default {
         dark: "#1f2122",
         lightDark: "#27292a",
         light: "#666",
+        error: "#fe0000",
       },
     },
   },

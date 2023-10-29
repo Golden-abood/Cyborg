@@ -5,14 +5,14 @@
         <img
           data-aos="zoom-in-right"
           class="rounded-[23px] md:w-[44%]"
-          src="/images/fortnite.jpeg"
-          alt=""
+          4
+          :src="popular.photo"
         />
         <div class="relative mt-7 md:mt-0">
           <img
             class="rounded-[23px]"
-            src="/images/feature-right.jpg"
             data-aos="zoom-in-left"
+            :src="popular.video"
           />
           <Icon
             name="material-symbols:play-arrow-rounded"
@@ -27,12 +27,21 @@
         data-aos="zoom-in-down"
         class="text-center mt-[60px] mb-[40px] text-white text-[45px] font-bold"
       >
-        FORTNITE DETAILS
+        {{ popular.title.toUpperCase() }} DETAILS
       </h2>
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup lang="ts">
+import { storeToRefs } from "pinia";
+import { usePopularStore } from "~/stores/popular";
+const popularStore = usePopularStore();
+const { popular } = storeToRefs(popularStore);
+const route = useRoute();
+const { pending } = useLazyAsyncData(() =>
+  popularStore.getPopular(route.params.id)
+);
+</script>
 
 <style scoped></style>

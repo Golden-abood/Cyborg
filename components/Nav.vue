@@ -38,13 +38,6 @@
           >
         </li>
         <li
-          class="mr-0 md:mr-5 text-[15px] cursor-pointer w-[110px] transition duration-100 text-center flex-nowrap text-base hover:rounded-5 min-w-[23%] hover:py-2"
-        >
-          <nuxt-link class="!text-light hover:!text-primary" to="Details"
-            >Details</nuxt-link
-          >
-        </li>
-        <li
           class="mr-0 md:mr-5 text-[15px] cursor-pointer w-[60px] transition duration-100 text-center flex-nowrap text-base hover:rounded-5 min-w-[14%] hover:py-2"
         >
           <nuxt-link class="!text-light hover:!text-primary" to="Streams"

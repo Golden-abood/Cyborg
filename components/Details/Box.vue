@@ -5,8 +5,8 @@
       class="flex justify-between items-center gap-y-0 gap-x-[40px] !p-[30px] w-full md:w-[48%] mb-[30px] md:mb-0"
     >
       <div>
-        <h4 class="text-white text-[15px] m-0">Fortnite</h4>
-        <p class="text-light mt-[7px] font-400">Sandbox</p>
+        <h4 class="text-white text-[15px] m-0">{{ popular.title }}</h4>
+        <p class="text-light mt-[7px] font-400">{{ popular.type }}</p>
       </div>
       <div class="right">
         <div class="text-right flex items-center gap-x-1">
@@ -16,7 +16,7 @@
             color="#ffff00"
             class="mr-[5px]"
           />
-          <span class="mb-0 text-[14px] text-white">4.8</span>
+          <span class="mb-0 text-[14px] text-white">{{ popular.count }}</span>
         </div>
         <div class="text-right flex items-center gap-x-1 mt-0">
           <Icon
@@ -25,7 +25,7 @@
             size="20px"
             color="#ec6090"
           />
-          <span class="mb-0 text-[14px] text-white">2.3M</span>
+          <span class="mb-0 text-[14px] text-white">{{ popular.follows }}</span>
         </div>
       </div>
     </BaseContainer>
@@ -39,19 +39,19 @@
           size="20px"
           color="#ffff00"
         />
-        <p class="text-white text-[13px] mt-2">4.8</p>
+        <p class="text-white text-[13px] mt-2">{{ popular.count }}</p>
       </div>
       <div class="flex-text-center font-400">
         <Icon name="ph:download-simple-fill" size="20px" color="#ec6090" />
-        <p class="text-white text-[13px] mt-2">2.3</p>
+        <p class="text-white text-[13px] mt-2">{{ popular.follows }}</p>
       </div>
       <div class="flex-col text-center font-400">
         <Icon name="zondicons:servers" size="20px" color="#ec6090" />
-        <p class="text-white text-[13px] mt-2">36GB</p>
+        <p class="text-white text-[13px] mt-2">{{ popular.size }}</p>
       </div>
       <div class="flex-col text-center font-400 justify-center">
         <Icon name="ph:game-controller-fill" size="20px" color="#ec6090" />
-        <p class="text-white text-[13px] mt-2">Action</p>
+        <p class="text-white text-[13px] mt-2">{{ popular.action }}</p>
       </div>
     </BaseContainer>
   </div>
@@ -85,6 +85,15 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup lang="ts">
+import { storeToRefs } from "pinia";
+import { usePopularStore } from "~/stores/popular";
+const popularStore = usePopularStore();
+const { popular } = storeToRefs(popularStore);
+const route = useRoute();
+const { pending } = useLazyAsyncData(() =>
+  popularStore.getPopular(route.params.id)
+);
+</script>
 
 <style scoped></style>

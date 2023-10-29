@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div :class="dialog ? ' relative z-0 bg-primary' : ''">
     <BaseContainer class="mt-[100px] md:mt-0">
       <HomeHeroSection />
       <BaseWrapper class="relative">
@@ -9,10 +9,12 @@
             data-aos="zoom-in-left"
             title="Add Popular"
             class="rounded-md mb-9 mx-auto md:mx-0"
+            @click="dialog = true"
           />
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 pb-6">
           <HomeCardsPopular data-aos="fade-down" />
+          <Dialog v-if="dialog" />
         </div>
         <BaseTheButton
           class="absolute left-[50%] translate-x-[-50%] top-[99.5%] md:top-[97%] w-[190px] py-2"
@@ -38,6 +40,7 @@ import { useLibraryStore } from "~/stores/Library";
 import { storeToRefs } from "pinia";
 const libraryStore = useLibraryStore();
 const { libraries } = storeToRefs(libraryStore);
+const dialog = ref(false);
 </script>
 
 <style scoped></style>
