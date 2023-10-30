@@ -56,21 +56,21 @@
     </BaseContainer>
   </div>
   <div class="mt-[40px]">
-    <div class="md:flex justify-center items-center gap-x-5">
+    <div class="flex justify-center items-center gap-x-5">
       <img
         data-aos="zoom-in-right"
-        src="/images/details-01.jpg"
-        class="mb-5 md:mb-0 rounded-[23px] w-full"
+        :src="popular.screenshots[0]"
+        class="mb-5 md:mb-0 rounded-[23px] w-[30%]"
       />
       <img
         data-aos="zoom-in"
-        src="/images/details-02.jpg"
-        class="mb-5 md:mb-0 rounded-[23px] w-full"
+        :src="popular.screenshots[1]"
+        class="mb-5 md:mb-0 rounded-[23px] w-[30%]"
       />
       <img
         data-aos="zoom-in-left"
-        src="/images/details-03.jpg"
-        class="mb-5 md:mb-0 rounded-[23px] w-full"
+        :src="popular.screenshots[2]"
+        class="mb-5 md:mb-0 rounded-[23px] w-[30%]"
       />
     </div>
     <div class="text-light mt-[25px] text-[15px]" data-aos="fade-down">

@@ -4,13 +4,13 @@
       <div class="md:flex justify-center w-full gap-x-8 items-center">
         <img
           data-aos="zoom-in-right"
-          class="rounded-[23px] md:w-[44%]"
+          class="rounded-[23px] h-[300px]"
           4
           :src="popular.photo"
         />
         <div class="relative mt-7 md:mt-0">
           <img
-            class="rounded-[23px]"
+            class="rounded-[23px] h-[300px]"
             data-aos="zoom-in-left"
             :src="popular.video"
           />

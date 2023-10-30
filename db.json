@@ -26,12 +26,12 @@
       "follows": "2.3",
       "action": "Action",
       "size": "36GB",
-      "photo": "/images/fortnite.jpeg",
-      "video": "/images/feature-right.jpg",
+      "photo": "/images/pubg-1.jpg",
+      "video": "/images/pubg-2.jpg",
       "screenshots": [
-        "/images/details-01.jpg",
-        "/images/details-02.jpg",
-        "/images/details-03.jpg"
+        "/images/pubg-6-1.jpg",
+        "/images/pubg-4.jpg",
+        "/images/pubg-5.jpg"
       ]
     },
     {
@@ -43,12 +43,12 @@
       "follows": "2.3",
       "action": "Action",
       "size": "36GB",
-      "photo": "/images/fortnite.jpeg",
-      "video": "/images/feature-right.jpg",
+      "photo": "/images/dota-1.jpg",
+      "video": "/images/dota-2.jpg",
       "screenshots": [
-        "/images/details-01.jpg",
-        "/images/details-02.jpg",
-        "/images/details-03.jpg"
+        "/images/dota-3.jpg",
+        "/images/dota-4.jpg",
+        "/images/dota-5.jpg"
       ]
     },
     {
@@ -60,29 +60,29 @@
       "follows": "2.3",
       "action": "Action",
       "size": "36GB",
-      "photo": "/images/fortnite.jpeg",
-      "video": "/images/feature-right.jpg",
+      "photo": "/images/CSGO-1.jpg",
+      "video": "/images/CSGO-2.jpg",
       "screenshots": [
-        "/images/details-01.jpg",
-        "/images/details-02.jpg",
-        "/images/details-03.jpg"
+        "/images/CSGO-3.png",
+        "/images/CSGO-4.jpeg",
+        "/images/CSGO-5.jpg"
       ]
     },
     {
       "id": 5,
-      "title": "Mini Craft",
+      "title": "MiniCraft",
       "type": "Legendary",
       "src": "/images/popular-05.jpg",
       "count": "4.8",
       "follows": "2.3",
       "action": "Action",
       "size": "36GB",
-      "photo": "/images/fortnite.jpeg",
-      "video": "/images/feature-right.jpg",
+      "photo": "/images/minicraft-1.webp",
+      "video": "/images/minicraft-2.jpeg",
       "screenshots": [
-        "/images/details-01.jpg",
-        "/images/details-02.jpg",
-        "/images/details-03.jpg"
+        "/images/mincraft-3.webp",
+        "/images/minecraft-4.jpg",
+        "/images/minecraft-5.jpg"
       ]
     },
     {
@@ -94,12 +94,12 @@
       "follows": "2.3",
       "action": "Action",
       "size": "36GB",
-      "photo": "/images/fortnite.jpeg",
-      "video": "/images/feature-right.jpg",
+      "photo": "/images/eagle-1.jpg",
+      "video": "/images/eagle-2.jpg",
       "screenshots": [
-        "/images/details-01.jpg",
-        "/images/details-02.jpg",
-        "/images/details-03.jpg"
+        "/images/eagle-3.jpg",
+        "/images/eagle-4.png",
+        "/images/eagle-5.jpg"
       ]
     },
     {
@@ -111,12 +111,12 @@
       "follows": "2.3",
       "action": "Action",
       "size": "36GB",
-      "photo": "/images/fortnite.jpeg",
-      "video": "/images/feature-right.jpg",
+      "photo": "/images/warface-1.jpeg",
+      "video": "/images/warface-2.jpg",
       "screenshots": [
-        "/images/details-01.jpg",
-        "/images/details-02.jpg",
-        "/images/details-03.jpg"
+        "/images/Warface-3.webp",
+        "/images/warface-4.png",
+        "/images/warface-5.jpg"
       ]
     },
     {
@@ -128,12 +128,12 @@
       "follows": "2.3",
       "action": "Action",
       "size": "36GB",
-      "photo": "/images/fortnite.jpeg",
-      "video": "/images/feature-right.jpg",
+      "photo": "/images/warcraft-1.webp",
+      "video": "/images/warcraft-2.jpg",
       "screenshots": [
-        "/images/details-01.jpg",
-        "/images/details-02.jpg",
-        "/images/details-03.jpg"
+        "/images/warcraft-3.webp",
+        "/images/warcraft-2.jpg",
+        "/images/warcraft-5.webp"
       ]
     }
   ],
