@@ -3,7 +3,7 @@
     v-for="(popular, index) in populars"
     class="bg-lightDark rounded-[23px] px-[15px] py-[30px] cursor-pointer relative"
     data-aos="zoom-in-down"
-    @click="$router.push(`/populars/${popular.id}`)"
+    @click="router.push(`/populars/${popular.id}`)"
   >
     <img :src="popular.src" class="rounded-[23px] mx-auto w-[100%]" />
     <div class="flex justify-between pt-5">
@@ -35,6 +35,11 @@ import { storeToRefs } from "pinia";
 const popularStore = usePopularStore();
 const { populars } = storeToRefs(popularStore);
 const { pending } = useLazyAsyncData(() => popularStore.list());
+const getPopular = useLazyAsyncData(() => popularStore.getPopular(1));
+
+const router = useRouter();
+const route = useRoute();
+console.log(route.redirectedFrom);
 </script>
 
 <style scoped></style>

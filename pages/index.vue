@@ -14,7 +14,7 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 pb-6">
           <HomeCardsPopular data-aos="fade-down" />
-          <Dialog v-if="dialog" />
+          <Dialog v-if="dialog" @close-dialog="closeDialog()" />
         </div>
         <BaseTheButton
           class="absolute left-[50%] translate-x-[-50%] top-[99.5%] md:top-[97%] w-[190px] py-2"
@@ -41,6 +41,10 @@ import { storeToRefs } from "pinia";
 const libraryStore = useLibraryStore();
 const { libraries } = storeToRefs(libraryStore);
 const dialog = ref(false);
+
+const closeDialog = () => {
+  dialog.value = !dialog.value;
+};
 </script>
 
 <style scoped></style>

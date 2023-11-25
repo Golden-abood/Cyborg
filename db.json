@@ -166,38 +166,62 @@
       "active": false
     }
   ],
-  "features": [
+  "streams": [
     {
-      "src": "/images/featured-01.jpg",
-      "title": "Gamezer",
-      "star": "4.8",
-      "download": "2.3M",
-      "stream": "2.4K Streaming",
-      "down": "249K Downloads"
+      "id": 1,
+      "photo": "/images/stream-05.jpg",
+      "src": "/images/avatar-01.jpg",
+      "name": "KenganC",
+      "desc": "Just Talking With Fans"
     },
     {
-      "src": "/images/featured-02.jpg",
-      "title": "Island Rusty",
-      "star": "4.8",
-      "download": "2.3M",
-      "stream": "4.4K Streaming",
-      "down": "549K Downloads"
+      "id": 2,
+      "photo": "/images/stream-06.jpg",
+      "src": "/images/avatar-02.jpg",
+      "name": "LunaMa",
+      "desc": "CS-GO 36 Hours Live Stream"
     },
     {
-      "src": "/images/featured-03.jpg",
-      "title": "CS-GO",
-      "star": "4.8",
-      "download": "2.3M",
-      "stream": "2.8K Streaming",
-      "down": "289K Downloads"
+      "id": 3,
+      "photo": "/images/stream-07.jpg",
+      "src": "/images/avatar-03.jpg",
+      "name": "Areluwa",
+      "desc": "Maybe Nathej Allnight Chillin'"
     },
     {
-      "src": "/images/featured-01.jpg",
-      "title": "Gamezer",
-      "star": "4.8",
-      "download": "2.3M",
-      "stream": "2.4K Streaming",
-      "down": "249K Downloads"
+      "id": 4,
+      "photo": "/images/stream-08.jpg",
+      "src": "/images/avatar-04.jpg",
+      "name": "GangTm",
+      "desc": "Live Streaming Till Morning"
+    },
+    {
+      "id": 5,
+      "photo": "/images/stream-07.jpg",
+      "src": "/images/avatar-01.jpg",
+      "name": "KenganC",
+      "desc": "Just Talking With Fans"
+    },
+    {
+      "id": 6,
+      "photo": "/images/stream-06.jpg",
+      "src": "/images/avatar-01.jpg",
+      "name": "Areluwa",
+      "desc": "Maybe Nathej Allnight Chillin'"
+    },
+    {
+      "id": 7,
+      "photo": "/images/stream-08.jpg",
+      "src": "/images/avatar-02.jpg",
+      "name": "LunaMa",
+      "desc": "CS-GO 36 Hours Live Stream"
+    },
+    {
+      "id": 8,
+      "photo": "/images/stream-06.jpg",
+      "src": "/images/avatar-01.jpg",
+      "name": "Areluwa",
+      "desc": "Maybe Nathej Allnight Chillin'"
     }
   ]
 }

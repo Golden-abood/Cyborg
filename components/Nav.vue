@@ -69,7 +69,6 @@ const show = ref(false);
 const showNav = function () {
   show.value = !show.value;
 };
-import { ref, onMounted, onUnmounted } from "vue";
 
 const isFixed = ref(false);
 
