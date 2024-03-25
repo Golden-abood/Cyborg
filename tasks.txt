@@ -1,0 +1,7 @@
+=> blur page when dialog is displayed 
+=> add animation to dialog when dialog is opened
+=> fix git popular page problem 
+=> toggle btn =. follow => un follow 
+==> deploy the project after fix proble json serverr 
+=> base container margin top classes 
+=> other game on details page 

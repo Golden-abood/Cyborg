@@ -1,7 +1,7 @@
 <template>
   <div class="relative top-0 left-[50%] translate-x-[-50%] rounded-[23px]">
     <div class="mx-auto mb-0 mt-[15px]">
-      <div class="md:flex justify-center w-full gap-x-8 items-center">
+      <div class="items-center justify-center w-full md:flex gap-x-8">
         <img
           data-aos="zoom-in-right"
           class="rounded-[23px] h-[300px]"
